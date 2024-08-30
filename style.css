@@ -2,6 +2,7 @@ html {
     height: 100%;
     width: 100%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 * {
@@ -611,6 +612,10 @@ h5 {
         justify-content: center;
         flex-direction: column  ;
         margin-left: 35px;
+        
+    }
+    h5{
+        font-size: 3rem;
     }
 }
 
