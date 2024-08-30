@@ -241,7 +241,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 80%;
     height: 100%;
     font-family: "Jost", sans-serif;
 }
@@ -624,7 +624,6 @@ h5 {
         width: 39dvh;
     }
     #top-sec-3{
-        margin-top: 100px;
     }
     .itens-bottom-sec1{
         margin-top: 50px;
