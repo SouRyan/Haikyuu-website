@@ -75,7 +75,7 @@ header {
 
 #sec-1 {
     background-image: url(/img/fundo.png);
-    background-image: url(../Nova\ pasta/img/fundo.png);
+    background-image: url(/IMG/fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
 
