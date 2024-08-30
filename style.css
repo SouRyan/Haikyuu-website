@@ -601,6 +601,18 @@ h5 {
         font-size: 30px;
     }
 }
+@media only screen and (max-width: 513px){
+    #see-all{
+        float: left;
+    }
+    #top-sec-3{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column  ;
+        margin-left: 35px;
+    }
+}
 
 #busca-body {
     height: 100dvh;
