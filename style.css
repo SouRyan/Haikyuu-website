@@ -74,8 +74,7 @@ header {
 }
 
 #sec-1 {
-    background-image: url(/img/fundo.png);
-    background-image: url(/IMG/fundo.png);
+    background-image: url(./IMG/fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -381,7 +380,7 @@ h5 {
 }
 @media screen and (min-width:1550){
     
-    #menu{
+    #menu1{
         display: none;
     }
 }
@@ -525,7 +524,7 @@ h5 {
 
     #lupa {
         top: 20px;
-        right: 60px;
+        right: 80px;
     }
 
     .icons-header {
