@@ -612,10 +612,16 @@ h5 {
         justify-content: center;
         flex-direction: column  ;
         margin-left: 35px;
-        
+        margin-top: 50px;
     }
     h5{
-        font-size: 3rem;
+        font-size: 3dvh;
+    }
+    .characters{
+        width: 1rem;
+    }
+    .img-personas{
+        width: 1rem;
     }
 }
 
