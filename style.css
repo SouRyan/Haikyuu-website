@@ -623,6 +623,9 @@ h5 {
     .img-personas{
         width: 40dvh;
     }
+    #top-sec-3{
+        margin-top: 100px;
+    }
 }
 
 #busca-body {
