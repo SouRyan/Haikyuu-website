@@ -19,14 +19,7 @@
 </head>
 
 <body>
-    <section id="busca-body">
-        <div id="barra-busca">
-            <input id="input-busca" type="text" placeholder="Busque">
-            <div id="botao-busca"></div>
-        </div>
-        <div id="black-back">
-        </div>
-    </section>
+
     <header>
         <div id="logo">
             <img src="https://logosmarcas.net/wp-content/uploads/2021/09/Haikyuu-Logo.png" alt="" id="logo-img">
@@ -238,46 +231,9 @@
             </div>
         </section>
     </nav>
-
+<script src="./script.js"></script>
     <script>
-        document.getElementById("menu1").onclick = () => {
-            document.getElementById("menu").style.right = "0px";
-            document.getElementById("menu1").style.right = "-500px";
-
-        }
-        document.getElementById("fechar").onclick = () => {
-            document.getElementById("menu").style.right = "-500px";
-            document.getElementById("menu1").style.right = "0px";
-        }
-        document.getElementById("lupa").onclick = () => {
-            document.getElementById("busca-body").style.display = "flex";
-            document.getElementById("black-back").style.display = "flex";
-        }
-
-        document.getElementById("black-back").onclick = () => {
-            document.getElementById("busca-body").style.display = "none";
-            document.getElementById("black-back").style.display = "none";
-        }
-
-
-
-        const imgs = document.querySelector("#img");
-        const img = document.querySelectorAll("#img .imgas");
-
-        let idx = 0;
-
-        function carrossel() {
-            idx++;
-
-            if (idx >= img.length) {
-                idx = 0;
-            }
-
-            imgs.style.transform = `translateX(${-idx * 400}px)`;
-        }
-
-        setInterval(carrossel, 3000);
-
+       
 
 
 
