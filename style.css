@@ -544,10 +544,12 @@ h5 {
         top: 30%;
         left: 5%;
         height: 300px;
-        width: 400px;
+        width: 300px;
         color: white;
     }
-
+    #names  h1{
+        font-size: 55px;
+    }
     #center-header {
         position: fixed;
         left: 30000px;
