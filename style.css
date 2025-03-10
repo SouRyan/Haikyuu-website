@@ -286,10 +286,9 @@ h2 {
 
 #personas {
     font-family: "Jost", sans-serif;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    place-items: center;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .center-img-personas {
@@ -339,7 +338,6 @@ h5 {
 
 .characters {
     display: flex;
-
     flex-direction: column;
     width: 450px;
     transition: 200ms;
@@ -613,17 +611,18 @@ h5 {
         display: flex;
         justify-content: center;
         flex-direction: column  ;
+        align-items: center;
         margin-left: 35px;
-        margin-top: 50px;
     }
     h5{
         font-size: 5dvh;
     }
     .characters{
-        width: 39dvh;
+        width: 30dvh;
     }
     .img-personas{
-        width: 45dvh;
+        height: 35dvh;
+        width: 35dvh;
     }
  
     .itens-bottom-sec1{
@@ -676,7 +675,7 @@ h5 {
     outline: 0;
 }
 
-#botao-busca::before {
+/* #botao-busca::before {
     background-color: red;
     height: 1000px;
     width: 10px;
@@ -694,4 +693,12 @@ h5 {
     background-color: black;
     height: 100%;
     width: 15%;
+} */
+
+@media (max-width:425px){
+    #hinata-sec2{
+        width: 300px;
+        height: 500px;
+    }
+
 }
