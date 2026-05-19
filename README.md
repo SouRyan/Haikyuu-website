@@ -1,5 +1,5 @@
 
-<img width="1902" height="1199" alt="image" src="https://github.com/user-attachments/assets/b80e7492-5c4d-465a-8ece-1f090f25ceeb" />
+![hai Web Preview](./IMG/haikyuu-demo.png)  
 Haikyuu!! - Fã Site 🎯🏐
 Bem-vindo ao Haikyuu!! Fã Site, um projeto dedicado ao icônico anime e mangá de vôlei criado por Haruichi Furudate! Este site oferece informações sobre a série, seus personagens, e muito mais.
 
